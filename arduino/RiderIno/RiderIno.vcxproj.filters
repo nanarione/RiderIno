@@ -13,5 +13,132 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="arduino_core">
+      <UniqueIdentifier>{ce3acf3f-05f5-4d6d-8b01-ab2fdf690398}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RiderIno.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visual Micro\.RiderIno.vsarduino.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BTRn52.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Arduino.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\binary.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Client.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Platform.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Printable.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Server.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Udp.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBAPI.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBDesc.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WCharacter.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_private.h">
+      <Filter>arduino_core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BTRn52.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\CDC.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HID.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\main.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Tone.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WInterrupts.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_analog.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_digital.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_shift.c">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WMath.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.cpp">
+      <Filter>arduino_core</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

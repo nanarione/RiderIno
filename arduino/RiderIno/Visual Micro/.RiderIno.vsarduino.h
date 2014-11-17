@@ -44,5 +44,7 @@ extern "C" void __cxa_pure_virtual() {;}
 
 #include "C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\arduino.h"
 #include "C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard\pins_arduino.h" 
-#include "C:\Users\gregory\Documents\Arduino\RiderIno\RiderIno.ino"
+#include "D:\project\RiderIno\arduino\RiderIno\RiderIno.ino"
+#include "D:\project\RiderIno\arduino\RiderIno\BTRn52.cpp"
+#include "D:\project\RiderIno\arduino\RiderIno\BTRn52.h"
 #endif
