@@ -6,17 +6,30 @@
 
 void BTRn52Class::init()
 {
-	pinMode(PIN_POWER_ENABLE, OUTPUT);
+	pinMode(POWER_ENABLE_PIN, OUTPUT);
+	pinMode(CMD_MODE_PIN, OUTPUT);
+
+	digitalWrite(CMD_MODE_PIN, LOW);
 }
 
 void BTRn52Class::powerEnable()
 {
-	digitalWrite(PIN_POWER_ENABLE, HIGH);
+	digitalWrite(POWER_ENABLE_PIN, HIGH);
 }
 
 void BTRn52Class::powerDisable()
 {
-	digitalWrite(PIN_POWER_ENABLE, LOW);
+	digitalWrite(POWER_ENABLE_PIN, LOW);
+}
+
+void BTRn52Class::enterCMDMode()
+{
+	digitalWrite(CMD_MODE_PIN, HIGH);
+}
+
+void BTRn52Class::exitCMDMode()
+{
+	digitalWrite(CMD_MODE_PIN, LOW);
 }
 
 

@@ -9,18 +9,21 @@
 	#include "WProgram.h"
 #endif
 
-const unsigned int PIN_POWER_ENABLE=12;
+const unsigned int POWER_ENABLE_PIN=12;
+const unsigned int CMD_MODE_PIN=6;	//GPIO9 RN52's point of view
 
 class BTRn52Class
 {
  protected:
-
+	 
 
  public:
 
 	void init();
 	void powerDisable();
 	void powerEnable();
+	void enterCMDMode();
+	void exitCMDMode();
 };
 
 extern BTRn52Class BTRn52;
